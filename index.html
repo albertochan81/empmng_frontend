@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EmpMng</title>
+  <h1>EmpMng</h1> </head></br>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Employee Management</h2> 
+
+    <form id="employee-form">
+      <label>Name:</label>
+      <input type="text" id="name" placeholder="Name" required />
+
+      <label>Position:</label>
+      <input type="text" id="position" placeholder="Position" required />
+
+      <label>Email:</label>
+      <input type="email" id="email" placeholder="Email" required />
+
+      <label>ID Number:</label>
+      <input type="text" id="id_number" placeholder="ID Number" required />
+
+      <label>Hire Date:</label>
+      <input type="date" id="hire_date" required />
+
+      <label>Hours Worked:</label>
+      <input type="number" id="hours_worked" placeholder="Hours Worked" required />
+
+      <label>Salary:</label>
+      <input type="number" id="salary" name="salary" step="0.01" required>
+
+      <label>Picture:</label>
+      <input type="file" id="picture" accept="image/*" />
+
+      <button type="submit">Add Employee</button>
+    </form>
+
+    <h2>Employee List</h2>
+    <ul id="employee-list" class="employee-cards"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
