@@ -1,5 +1,5 @@
-const API_BASE = "http://127.0.0.1:5000";  // Change to your backend domain if deployed
-//const API_BASE = "http://my-flask-env.eba-nhczj93m.us-west-2.elasticbeanstalk.com"
+//const API_BASE = "http://127.0.0.1:5000";  // Change to your backend domain if deployed
+const API_BASE = "http://my-flask-env.eba-nhczj93m.us-west-2.elasticbeanstalk.com"
 
 const employeeForm = document.getElementById("employee-form");
 const employeeList = document.getElementById("employee-list");
