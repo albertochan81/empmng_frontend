@@ -5,11 +5,23 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
+.title-wrapper {
   text-align: center;
-  padding: 1rem;
-  border: 2px solid hsl(0, 0%, 87%);
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* clean modern font */
+  font-size: 2.5rem;          /* nice readable size */
+  font-weight: 600;           /* semi-bold for balance */
+  letter-spacing: 1px;        /* adds some breathing room */
+  text-align: center;
+  padding: 1rem 2rem;
+  border: 2px solid hsl(0, 16%, 92%);
   border-radius: 8px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 body {
