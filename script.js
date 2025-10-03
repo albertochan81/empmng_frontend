@@ -1,5 +1,5 @@
 //const API_BASE = "http://127.0.0.1:8080";  // Change to your backend domain if deployed
-const API_BASE = "https://empmng-backend.us-east-1.elasticbeanstalk.com"
+const API_BASE = "https://api.empmng.com"
 
 const employeeForm = document.getElementById("employee-form");
 const employeeList = document.getElementById("employee-list");
